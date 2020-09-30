@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { CardHeader, Contact, Flight, Passenger, Reservation } from "./components";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render(){
+    return(
+        <div className="card main-card">
+          <CardHeader/>
+          <div className="card-body">
+            <div className="row">
+              <div className="col-xl-7 col-md-12 col-12">
+                <Passenger/>
+                <div className="row mt-3">
+                  <div className="col-lg-6 col-12">
+                    <Reservation/>
+                  </div>
+                  <div className="col-lg-6 col-12 mt-2 ">
+                    <Contact/>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-5 col-md-12 col-12">
+                <Flight/>
+              </div>
+            </div>
+          </div>
+        </div>
+    )
+  }
 }
 
 export default App;

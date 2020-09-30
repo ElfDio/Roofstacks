@@ -1,0 +1,36 @@
+.passenger-card {
+    .input-group-text {
+        border-radius: 0;
+        background-color: #5e81ac;
+        color: white;
+    }
+
+    .card-body {
+        background-color: #ffffff;
+    }
+
+    .btn-passenger {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .btn {
+            margin-bottom: 10px;
+        }
+
+        .btn-save {
+            background-color: #9ace6a;
+            color: white;
+        }
+
+        .btn-search {
+            background-color: #5e81ac;
+            color: white;
+        }
+
+        @media only screen and (min-width: 768px) {
+            flex-direction: row;
+        }
+    }
+}

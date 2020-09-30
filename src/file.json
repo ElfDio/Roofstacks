@@ -1,0 +1,169 @@
+{
+    "ucus":[
+    {
+           "id":1,
+           "title":"İstanbul-Paris",
+           "go_date": "21 Eylül 2020",
+           "departure_time": "12:00",
+           "return_time": "22:30",
+           "depature_place": "IST",
+           "return_place":"Paris",
+           "one_break_time": "10:30",
+           "two_break_time": "07:10",
+           "one_break_place": "CGD",
+           "two_break_place": "JFK",
+           "sub":[
+                   {
+                       "id":1,
+                       "img": "https://www.freepnglogos.com/uploads/turkish-air-lines-logo-png-2.png",
+                       "date":"21 Eylül 2020",
+                       "total_hour":"3 sa 40 dk",
+                       "departure_time":"04:25",
+                       "return_time":"07:05",
+                       "airline":"Istanbul Havalimanı (IST)",
+                       "plane":"Türk Hava Yolları",
+                       "plane_code":"TK1234",
+                       "finish_airline":"Paris - Charles De Gaulle (CGD)",
+                       "cabin":"X9 Main Cabin",
+                       "piece":"2 Piece",
+                       "standby_time": "02 sa 10 dk"
+                    },
+                    {
+                        "id":2,
+                        "img": "https://www.westjet.com/assets/wj-web/images/en/rewards/141210-delta-logo-2.png",
+                        "date":"21 Eylül 2020",
+                        "total_hour":"40 dk",
+                        "departure_time":"10:10",
+                        "return_time":"11:30",
+                        "airline":"Istanbul Havalimanı (IST)",
+                        "plane":"Türk Hava Yolları",
+                        "plane_code":"TK74152",
+                        "finish_airline":"Paris - Charles De Gaulle (CGD)",
+                        "cabin":"X5 Main Cabin",
+                        "piece":"1 Piece",
+                        "standby_time": "02 sa 10 dk"
+                     },
+                     {
+                        "id":3,
+                        "img": "https://www.westjet.com/assets/wj-web/images/en/rewards/141210-delta-logo-2.png",
+                        "date":"21 Eylül 2020",
+                        "total_hour":"4 sa 50 dk",
+                        "departure_time":"15:25",
+                        "return_time":"12:00",
+                        "airline":"Adnan Menderes Havalimanı (ADB)",
+                        "plane":"Türk Hava Yolları",
+                        "plane_code":"TK78963",
+                        "finish_airline":"Paris - Charles De Gaulle (CGD)",
+                        "cabin":"X9 Main Cabin",
+                        "piece":"1 Piece",
+                        "standby_time": "02 sa 10 dk"
+                     }
+               ]
+    },
+    {
+        "id":2,
+        "title":"İzmir-İstanbul",
+        "go_date": "30 Aralık 2020",
+        "departure_time": "21:00",
+        "return_time": "22:30",
+        "depature_place": "ADB",
+        "return_place":"IST",
+        "one_break_time": "10:30",
+        "two_break_time": "07:10",
+        "one_break_place": "ADB",
+        "two_break_place": "IST",
+        "sub":[
+                {
+                    "id":1,
+                    "img": "https://www.freepnglogos.com/uploads/turkish-air-lines-logo-png-2.png",
+                    "date":"30 Aralık 2020",
+                    "total_hour":"1 sa 30 dk",
+                    "departure_time":"04:25",
+                    "return_time":"07:05",
+                    "airline":"Adnan Menderes Havalimanı (ADB)",
+                    "plane":"Türk Hava Yolları",
+                    "plane_code":"TK1234",
+                    "finish_airline":"Istanbul Havalimanı (IST)",
+                    "cabin":"X9 Main Cabin",
+                    "piece":"1 Piece",
+                    "standby_time": "30dk"
+                 },
+                 {
+                     "id":2,
+                     "img": "https://www.freepnglogos.com/uploads/turkish-air-lines-logo-png-2.png",
+                     "date":"30 Aralık 2020",
+                     "total_hour":"40 dk",
+                     "departure_time":"04:25",
+                     "return_time":"05:55",
+                     "airline":"Adnan Menderes Havalimanı (ADB)",
+                     "plane":"Türk Hava Yolları",
+                     "plane_code":"TK1234",
+                     "finish_airline":"Istanbul Havalimanı (IST)",
+                     "cabin":"X9 Main Cabin",
+                     "piece":"1 Piece",
+                     "standby_time": "40dk"
+                  },
+                  {
+                     "id":3,
+                     "img": "https://www.westjet.com/assets/wj-web/images/en/rewards/141210-delta-logo-2.png",
+                     "date":"30 Aralık 2020",
+                     "total_hour":"40 dk",
+                     "departure_time":"18:15",
+                     "return_time":"19:30",
+                     "airline":"Adnan Menderes Havalimanı (ADB)",
+                     "plane":"Türk Hava Yolları",
+                     "plane_code":"TK1234",
+                     "finish_airline":"Istanbul Havalimanı (IST)",
+                     "cabin":"X9 Main Cabin",
+                     "piece":"1 Piece",
+                     "standby_time": "10 dk"
+                  }
+            ]
+    },
+    {
+        "id":3,
+        "title":"Ankara-İstanbul",
+        "go_date": "3 Mayıs 2021",
+        "departure_time": "12:00",
+        "return_time": "22:30",
+        "depature_place": "ESB",
+        "return_place":"IST",
+        "one_break_time": "10:30",
+        "two_break_time": "11:58",
+        "one_break_place": "ESB",
+        "two_break_place": "IST",
+        "sub":[
+                {
+                    "id":1,
+                    "img": "https://www.westjet.com/assets/wj-web/images/en/rewards/141210-delta-logo-2.png",
+                    "date":"23 Mayıs 2021",
+                    "total_hour":"55 dk",
+                    "departure_time":"13:25",
+                    "return_time":"21:50",
+                    "airline":"Ankara Esenboğa Havalimanı (ESB)",
+                    "plane":"Türk Hava Yolları",
+                    "plane_code":"TK1234",
+                    "finish_airline":"İstanbul Havalimanı (IST)",
+                    "cabin":"X9 Main Cabin",
+                    "piece":"1 Piece",
+                    "standby_time": "55 dk"
+                 },
+                 {
+                     "id":2,
+                     "img": "https://www.westjet.com/assets/wj-web/images/en/rewards/141210-delta-logo-2.png",
+                     "date":"3 Mayıs 2021",
+                     "total_hour":"55 dk",
+                     "departure_time":"14:25",
+                     "return_time":"22:05",
+                     "airline":"Ankara Esenboğa Havalimanı (ESB)",
+                     "plane":"Türk Hava Yolları",
+                     "plane_code":"TK1234",
+                     "finish_airline":"İstanbul Havalimanı (IST)",
+                     "cabin":"X9 Main Cabin",
+                     "piece":"1 Piece",
+                     "standby_time": "55 dk"
+                  }
+            ]
+    }
+   ]
+}

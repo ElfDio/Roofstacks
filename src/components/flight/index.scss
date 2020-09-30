@@ -1,0 +1,77 @@
+.flight-card-container {
+
+    .card-body {
+        background-color: white;
+    }
+
+    .flight-card {
+        background-color: transparent;
+
+        .flight-card-header {
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center;
+
+            img {
+                width: 20%;
+            }
+
+            .flight-information {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+            }
+
+            .flight-btn {
+                width: 40px;
+                background-color: #6ed1ef61;
+                border-radius: 100px;
+
+                img {
+                    width: 100%;
+
+                    &:hover {
+                        outline: none;
+                    }
+
+                    &::after{
+                        content: " ";
+                        transform: translateY(50px);
+                    }
+                }
+            }
+        }
+
+        .card-body {
+            .date-hour {
+                text-align: center;
+                margin-bottom: 0;
+                font-size: 14px;
+            }
+
+            .icon-text {
+
+                svg {
+                    color: grey;
+                    font-size: 12px;
+                    ;
+                }
+
+                .other-text {
+                    font-size: 15px;
+                }
+            }
+
+
+        }
+
+        .wait {
+            width: 100%;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            color: #5e81ac;
+        }
+    }
+}
