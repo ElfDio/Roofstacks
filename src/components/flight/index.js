@@ -1,10 +1,8 @@
 import React from "react";
 import { Accordion, Button, Card, Col, Row } from "react-bootstrap";
 import "./index.scss";
-import logo from "../../assets/images/tr.png";
-import down from "../../assets/images/down.png";
 import file from "../../file.json";
-import { EventSeat, ShoppingBasket, FlightTakeoff, PriorityHigh } from "@material-ui/icons";
+import { EventSeat, ShoppingBasket, FlightTakeoff, PriorityHigh, ExpandMore } from "@material-ui/icons";
 import { Divider } from "../divider";
 import { CardHeader } from "../card_header";
 
@@ -22,7 +20,7 @@ class Component extends React.Component{
                     <Accordion defaultActiveKey={data.id}>
                         <Card className="flight-card" key={data.id}>
                             <Card.Header className="flight-card-header">
-                                <img src={logo}/>
+                                <img src={data.img}/>
                                 <div className="flight-information">
                                    <div className="d-flex flex-column align-items-end" style={{flex:1}}>
                                         <span>{data.departure_time}</span>
@@ -38,7 +36,7 @@ class Component extends React.Component{
                                    </div>
                                 </div>
                             <Accordion.Toggle as={Button} className="flight-btn" variant="link" eventKey={data.id}>
-                                <img src={down}/>
+                                <ExpandMore/>
                             </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey={data.id}>

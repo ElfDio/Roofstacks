@@ -12,6 +12,7 @@
            "two_break_time": "07:10",
            "one_break_place": "CGD",
            "two_break_place": "JFK",
+           "img": "https://www.freepnglogos.com/uploads/turkish-air-lines-logo-png-2.png",
            "sub":[
                    {
                        "id":1,
@@ -72,6 +73,7 @@
         "two_break_time": "07:10",
         "one_break_place": "ADB",
         "two_break_place": "IST",
+        "img": "https://www.westjet.com/assets/wj-web/images/en/rewards/141210-delta-logo-2.png",
         "sub":[
                 {
                     "id":1,
@@ -132,6 +134,7 @@
         "two_break_time": "11:58",
         "one_break_place": "ESB",
         "two_break_place": "IST",
+        "img": "https://www.westjet.com/assets/wj-web/images/en/rewards/141210-delta-logo-2.png",
         "sub":[
                 {
                     "id":1,
